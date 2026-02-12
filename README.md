@@ -36,4 +36,39 @@ This application demonstrates good **API design, modularity, security, and scala
 ---
 
 ## Folder Structure
+TaskFlow/
+│
+├── backend/
+│ ├── server.js
+│ ├── app.js
+│ ├── routes/
+│ ├── controllers/
+│ ├── middleware/
+│ ├── config/
+│ └── package.json
+│
+└── frontend/
+├── src/
+├── public/
+└── package.json
 
+
+
+---
+
+## Installation & Running
+
+
+Server runs on http://localhost:5000
+
+##Frontend
+cd frontend
+npm install
+npm start
+App runs on http://localhost:3000
+
+### Backend
+```bash
+cd backend
+npm install
+npm start
