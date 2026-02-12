@@ -1,0 +1,200 @@
+/* ================= BODY & BASE ================= */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+  margin: 0;
+  padding: 0;
+}
+
+/* ================= AUTH CARD ================= */
+.auth-card {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.auth-card:hover {
+  transform: translateY(-5px);
+}
+
+.auth-card h2 {
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.auth-card input {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+.auth-card input:focus {
+  outline: none;
+  border-color: #4caf50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.auth-card button {
+  width: 48%;
+  padding: 12px 0;
+  margin: 10px 1%;
+  border-radius: 8px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.auth-card button:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+.auth-card .message {
+  margin-top: 15px;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.auth-card .message.error {
+  color: #c0392b;
+  background-color: #fcebea;
+}
+
+.auth-card .message.success {
+  color: #27ae60;
+  background-color: #eafaf1;
+}
+
+/* ================= DASHBOARD CONTAINER ================= */
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.container h2, .container h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* ================= INPUTS ================= */
+input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 16px;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4caf50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.4);
+}
+
+/* ================= BUTTONS ================= */
+button {
+  padding: 12px 20px;
+  margin: 5px 2px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button.logout-btn {
+  background-color: #f39c12;
+}
+
+button.logout-btn:hover {
+  background-color: #e67e22;
+}
+
+button.delete-btn {
+  background-color: #e74c3c;
+}
+
+button.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+/* ================= TASK ITEMS ================= */
+.task-item {
+  padding: 14px;
+  margin: 12px 0;
+  border-radius: 8px;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.task-item:hover {
+  transform: translateX(3px);
+}
+
+/* ================= MESSAGES ================= */
+.message {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.message.error {
+  color: #c0392b;
+  background-color: #fcebea;
+}
+
+.message.success {
+  color: #27ae60;
+  background-color: #eafaf1;
+}
+
+/* ================= FORM & LAYOUT ================= */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.task-form button {
+  width: 100%;
+}
